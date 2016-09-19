@@ -39,6 +39,9 @@ describe "CountrySelect" do
   end
 
   it "uses the locale specified by I18n.locale" do
+    I18n.available_locales = [:en, :es]
+    ISO3166.reset
+
     tag = options_for_select([['Estados Unidos', 'US']], 'US')
 
     walrus.country_code = 'US'
@@ -53,6 +56,9 @@ describe "CountrySelect" do
   end
 
   it "accepts a locale option" do
+    I18n.available_locales = [:fr]
+    ISO3166.reset
+
     tag = options_for_select([['États-Unis', 'US']], 'US')
 
     walrus.country_code = 'US'
