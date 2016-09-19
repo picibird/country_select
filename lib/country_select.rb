@@ -5,6 +5,7 @@ require 'monkey_patches'
 require 'sort_alphabetical'
 
 require 'country_select/version'
+require 'country_select/custom_countries'
 require 'country_select/formats'
 require 'country_select/tag_helper'
 
