@@ -1,6 +1,7 @@
 # encoding: utf-8
 
 require 'countries'
+require 'monkey_patches'
 require 'sort_alphabetical'
 
 require 'country_select/version'
