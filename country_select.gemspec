@@ -19,12 +19,14 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ['lib']
 
-  s.add_development_dependency 'actionpack', '~> 3'
+  s.required_ruby_version = '>= 2'
+
+  s.add_development_dependency 'actionpack', '~> 5'
   s.add_development_dependency 'pry', '~> 0'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec', '~> 3'
   s.add_development_dependency 'wwtd'
 
-  s.add_dependency 'countries', '~> 2.0.0.pre.4'
+  s.add_dependency 'countries', '~> 3.0'
   s.add_dependency 'sort_alphabetical', '~> 1.0'
 end

@@ -1,3 +1,21 @@
+## 4.0.0 2018-12-20
+
+  * #160 - Upgrade to countries 3.0 - @gssbzn
+    * https://github.com/hexorx/countries/blob/master/CHANGELOG.md#v220-yanked-and-re-released-as-300-20181217-1020-0000
+
+## 3.1.1 2017-09-20
+
+  * #146 - Fix value call on Rails edge (5.2+) - @ybart
+
+## 3.1.0 2017-07-18
+
+  * #144 - Provide a possibility to opt out of `sort_alphabetical` - @fschwahn
+
+## 3.0.0 2016-11-25
+
+  * #138 - Upgrade to Countries 2.0
+  * #136 - Drop support for Ruby 1.9.3 as countries 2.0 no longer supports it
+
 ## 2.5.2 2015-11-10
 
   * #127 - Fix multi-selects - @jjballano
